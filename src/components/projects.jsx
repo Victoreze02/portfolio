@@ -23,7 +23,7 @@ function Projects() {
           visible: {
             opacity: 1,
             transition: { staggerChildren: 0.3 },
-          },
+          }
         }}
       >
         {projectList.map((project, index) => (
