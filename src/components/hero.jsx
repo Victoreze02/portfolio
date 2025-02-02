@@ -1,8 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./hero.css";
-import profileImage from "/Victor.jpg";
-
+import profileImage from "../../assets/victor.jpg";
 
 function Hero() {
   return (

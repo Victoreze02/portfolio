@@ -1,14 +1,18 @@
-
-/* /* <li><a href="https://www.theextraordinarychurch.org/">The Extraordinary Chruch</a></li>
-        // <a href="https://technical-writing-one.vercel.app/">Technical Writing</a> */
-       
 import React from "react";
 import { motion } from "framer-motion";
 import "./projects.css";
 
 const projectList = [
-  <span><a href="https://www.theextraordinarychurch.org/" target="_blank">The Extraordinary Chruch</a></span> ,
-   <span><a href="https://technical-writing-one.vercel.app/" target="_blank">Technical Writing</a></span>
+  <span>
+    <a href="https://www.theextraordinarychurch.org/" target="_blank">
+      The Extraordinary Church
+    </a>
+  </span>,
+  <span>
+    <a href="https://technical-writing-one.vercel.app/" target="_blank">
+      Technical Writing
+    </a>
+  </span>,
 ];
 
 function Projects() {
@@ -23,7 +27,7 @@ function Projects() {
           visible: {
             opacity: 1,
             transition: { staggerChildren: 0.3 },
-          }
+          },
         }}
       >
         {projectList.map((project, index) => (
